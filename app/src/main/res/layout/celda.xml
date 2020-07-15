@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/celda"
+    android:layout_width="35dp"
+    android:layout_height="35dp"
+    android:background="@color/colorInteriorCelda">
+
+
+
+    <Button
+        android:id="@+id/btn_top"
+        android:layout_width="35dp"
+        android:layout_height="5dp"
+        android:background="@color/colorBotonesNeutro"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/btn_left"
+        android:layout_width="5dp"
+        android:layout_height="35dp"
+        android:background="@color/colorBotonesNeutro"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/btn_rigth"
+        android:layout_width="5dp"
+        android:layout_height="35dp"
+        android:background="@color/colorBotonesNeutro"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/btn_bottom"
+        android:layout_width="35dp"
+        android:layout_height="5dp"
+        android:background="@color/colorBotonesNeutro"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>
